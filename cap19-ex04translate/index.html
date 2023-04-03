@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+
+    <style>
+        #container{
+            height: 97vh;
+            background-color: green;
+            background-image: url(../imagens/target001.png);
+            background-size: 100% 100% ;
+            position: relative;
+        }
+
+        #conteudo{
+            background-color: gray;
+            background-image: url(../imagens/target001.png);
+            background-size: 100% 100%;
+            width: 300px;
+            height: 250px;
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50% , -50%);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 
+        Sempre que for alinhar um conteudo verticalmente é preciso usar a semântica de um container e ai sim um conteudo pois vamos utilizar das propriedades position relative = container e position absolute = conteudo
+        No conteudo vamos liberar as propriedade lef e top para alinha o canto esquerdo e o topo no centro da imagem apos isso vamos uilizar o transform; translate() para mover o canto esquerdo e top negativamente assim alinhando o conteudo dentro do container 
+    -->
+
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>

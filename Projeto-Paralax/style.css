@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(../imagens/pattern004.png)
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&display=swap');
+/*Header----*/
+
+
+header{
+    background-color: black;
+    padding-bottom: 70px;
+    
+   
+    
+}
+
+header>h1{
+    color: white;
+    text-align: center;
+    font-size: 6vw;
+    font-weight: bolder;
+    font-family:'Changa One', cursive,sans-serif; 
+    padding-top: 30px;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    background-color: black;
+    margin-bottom: 20px;
+}
+p > a{
+    text-decoration: none;
+    color:white
+    
+    
+}
+p > a:hover{
+    text-decoration: underline;
+}
+
+/*Main----*/
+
+main{
+    background-color: white;
+    max-width:80vw;
+    margin: auto;
+   
+    
+}
+.normal{
+    padding: 74px 0px 74px;
+}
+.normal> p{
+    text-align: center;
+    font-size: 4vw;
+    line-height: 2em;
+    font-family:'Changa One', cursive,sans-serif;
+    font-weight: bolder; 
+}
+
+.imagem > p{
+    text-align: center;
+    font-size: 4vw;
+    line-height: 2em;
+    color: white;
+
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.288);
+
+    padding: 10px;
+    margin-left:21.5%;
+}
+
+.imagem{
+    padding: 74px 0px 74px ;
+
+    background-color: black;
+
+    box-shadow: inset 0px 0px 8px -1px #000000;
+
+    background-image: url(./imagens/background002.jpg);
+    background-position: left, bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
